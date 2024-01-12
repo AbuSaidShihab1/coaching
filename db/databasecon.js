@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const databsecon = () => {
   mongoose
     .connect(
-      `mongodb+srv://shihabmoni15:${process.env.mongo_pass}@cluster0.c0tr6qk.mongodb.net/?retryWrites=true&w=majority`,
+      `mongodb+srv://shihabmoni15:PJDhr0tMiH0oz46G@cluster0.c0tr6qk.mongodb.net/?retryWrites=true&w=majority`,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
